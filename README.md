@@ -39,12 +39,12 @@ A shallow copy
 A deep copy
 * When you want a completely independent duplicate of an object
 
+---
+
 ### Q4 — Clone Method and `ICloneable` Interface Explanation
 
 ### 1. What is `Clone()`?
-
 `Clone()` is a method used to **create a copy of an existing object**. Instead of manually creating a new object and copying all properties, the `Clone()` method allows duplicating the object easily.
-
 Example from the code:
 
 ```csharp
@@ -55,33 +55,23 @@ public override object Clone()
     return clone;
 }
 ```
-
-What happens 
-
 1. `MemberwiseClone()` creates a **shallow copy** of the current object.
 2. The copied object is stored in `clone`.
 3. A **new ticket number** is generated so the cloned ticket is unique.
 4. The cloned object is returned.
 
 This allows the program to copy ticket information such as:
-
-* Movie name
-* Price
-* IMAX / 3D settings
-
+* Movie name, Price, IMAX / 3D settings
 while still assigning a **different ticket ID**.
 
 ### 2. What is `MemberwiseClone()`?
-
 `MemberwiseClone()` is a **built-in protected method of the `Object` class in C#**.
 
 This means:
-
 * Every class in C# **inherits it automatically**
 * It performs a **shallow copy** of the object
 
 ### 3. What is the `ICloneable` Interface?
-
 `ICloneable` is a **built-in C# interface** that defines a method used to clone objects.
 
 Definition:
