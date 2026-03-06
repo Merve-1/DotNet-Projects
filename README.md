@@ -1,17 +1,19 @@
 # 🎬 Movie Ticket Booking System (C# OOP)
 
-Topics covered:
+##Topics covered:
 
 - Interfaces in C#
 - Explicit Interface Implementation
 - Shallow Copy vs Deep Copy
 - Object cloning using `MemberwiseClone()`
 
+---
+
 ## Questions
 
 ### Q1 — Interfaces in C#
-Explanation of what interfaces are and why they are used instead of concrete classes.
 <img width="298" height="169" alt="images" src="https://github.com/user-attachments/assets/f241c7b1-0fbd-4df9-abe0-07d50881d625" />
+Explanation of what interfaces are and why they are used instead of concrete classes.
 
 Benefits discussed include:
 
@@ -19,12 +21,12 @@ Benefits discussed include:
 - Better testability
 - Polymorphism support
 
-
 ---
 
 ### Q2 — Multiple Interfaces With Same Method
 <img width="616" height="355" alt="image" src="https://github.com/user-attachments/assets/e891eb51-bfa0-4029-a36d-ae9e59101055" />
 
+---
 
 ### Q3 — Explain the difference between a shallow copy and a deep copy. 
 <img width="810" height="362" alt="image" src="https://github.com/user-attachments/assets/cee70da4-d527-4d84-8b70-bc9a396ff7c3" />
@@ -38,7 +40,7 @@ A deep copy
 
 ### Q4 — Clone Method and `ICloneable` Interface Explanation
 
-1. What is `Clone()`?
+### 1. What is `Clone()`?
 
 `Clone()` is a method used to **create a copy of an existing object**. Instead of manually creating a new object and copying all properties, the `Clone()` method allows duplicating the object easily.
 
@@ -53,7 +55,7 @@ public override object Clone()
 }
 ```
 
-### What happens 
+What happens 
 
 1. `MemberwiseClone()` creates a **shallow copy** of the current object.
 2. The copied object is stored in `clone`.
@@ -68,9 +70,7 @@ This allows the program to copy ticket information such as:
 
 while still assigning a **different ticket ID**.
 
----
-
-2. What is `MemberwiseClone()`?
+### 2. What is `MemberwiseClone()`?
 
 `MemberwiseClone()` is a **built-in protected method of the `Object` class in C#**.
 
@@ -79,9 +79,7 @@ This means:
 * Every class in C# **inherits it automatically**
 * It performs a **shallow copy** of the object
 
----
-
-3. What is the `ICloneable` Interface?
+### 3. What is the `ICloneable` Interface?
 
 `ICloneable` is a **built-in C# interface** that defines a method used to clone objects.
 
