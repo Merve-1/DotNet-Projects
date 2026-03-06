@@ -1,6 +1,8 @@
 ## 📚 .NET OOP Route Assignments
 
 This repository contains my assignments and practice tasks from the **.NET Route course**, starting from basic OOP concepts and gradually building a **Movie Ticket Booking System** while applying different OOP principles.
+<img width="1563" height="587" alt="image" src="https://github.com/user-attachments/assets/502b4e7e-9ceb-4d2b-8f5d-dac5c0e63a4f" />
+
 
 ### 🌿 Branches
 
@@ -8,6 +10,7 @@ This repository contains my assignments and practice tasks from the **.NET Route
 * **Route-A2** – Improving the ticket system using **encapsulation, properties, indexers, and static members**, plus theoretical questions about fields, properties, and indexers.
 * **Route-A3** – Refactoring the system using **inheritance, composition, and sealed classes**, and adding multiple ticket types (Standard, VIP, IMAX).
 * **Route-A4** – Applying **polymorphism** with method overriding and overloading to make the ticket system more flexible and extensible.
+* **Route-A5** – Extending the system using interfaces and object cloning concepts.
 
 ---
 
