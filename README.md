@@ -29,8 +29,6 @@ Benefits discussed include:
 ### Q3 — Explain the difference between a shallow copy and a deep copy. 
 <img width="810" height="362" alt="image" src="https://github.com/user-attachments/assets/cee70da4-d527-4d84-8b70-bc9a396ff7c3" />
 
-### Shallow Copy Meaning
-
 A shallow copy 
 * When the object only contains value types
 * Or when sharing references is acceptable.
@@ -72,7 +70,7 @@ while still assigning a **different ticket ID**.
 
 ---
 
-# 2. What is `MemberwiseClone()`?
+2. What is `MemberwiseClone()`?
 
 `MemberwiseClone()` is a **built-in protected method of the `Object` class in C#**.
 
@@ -83,15 +81,9 @@ This means:
 
 ---
 
-# 3. What is the `ICloneable` Interface?
+3. What is the `ICloneable` Interface?
 
 `ICloneable` is a **built-in C# interface** that defines a method used to clone objects.
-
-Namespace:
-
-```
-System
-```
 
 Definition:
 
