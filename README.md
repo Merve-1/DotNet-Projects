@@ -1,6 +1,7 @@
 ## 📚 .NET OOP Route Assignments
 
 This repository contains my assignments and practice tasks from the **.NET Route course**, starting from basic OOP concepts and gradually building a **Movie Ticket Booking System** while applying different OOP principles.
+
 <img width="1563" height="587" alt="image" src="https://github.com/user-attachments/assets/502b4e7e-9ceb-4d2b-8f5d-dac5c0e63a4f" />
 
 
