@@ -1,0 +1,14 @@
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\bin\Debug\net10.0\Assignment_04.exe
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\bin\Debug\net10.0\Assignment_04.deps.json
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\bin\Debug\net10.0\Assignment_04.runtimeconfig.json
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\bin\Debug\net10.0\Assignment_04.dll
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\bin\Debug\net10.0\Assignment_04.pdb
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.AssemblyInfoInputs.cache
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.AssemblyInfo.cs
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.csproj.CoreCompileInputs.cache
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.dll
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\refint\Assignment_04.dll
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.pdb
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\Assignment_04.genruntimeconfig.cache
+D:\Courses\Route\DotNet\03_OOP\Session05\Assignment_04\Assignment_04\obj\Debug\net10.0\ref\Assignment_04.dll
