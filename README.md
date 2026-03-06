@@ -13,6 +13,7 @@
 
 ### Q1 — Interfaces in C#
 <img width="298" height="169" alt="images" src="https://github.com/user-attachments/assets/f241c7b1-0fbd-4df9-abe0-07d50881d625" />
+
 Explanation of what interfaces are and why they are used instead of concrete classes.
 
 Benefits discussed include:
