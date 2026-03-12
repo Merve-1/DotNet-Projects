@@ -11,7 +11,7 @@ This repository contains my assignments and practice tasks from the **.NET Route
 * **Route-A3** – Refactoring the system using **inheritance, composition, and sealed classes**, and adding multiple ticket types (Standard, VIP, IMAX).
 * **Route-A4** – Applying **polymorphism** with method overriding and overloading to make the ticket system more flexible and extensible.
 * **Route-A5** – Extending the system using interfaces and object cloning concepts.
-* **Route-A6** Enhancing the Movie Ticket Booking System using abstraction, abstract classes, partial classes, and extension methods.
+* **Route-A6** – Enhancing the Movie Ticket Booking System using abstraction, abstract classes, partial classes, and extension methods.
 
 ---
 
