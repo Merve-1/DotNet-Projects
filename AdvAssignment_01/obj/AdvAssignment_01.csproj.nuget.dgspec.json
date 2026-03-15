@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Courses\\Route\\DotNet\\03_OOP\\Session07\\LibraryManagementProject\\LibraryManagementProject\\LibraryManagementProject.csproj": {}
+    "D:\\Courses\\Route\\DotNet\\Assignments\\AdvAssignment_01\\AdvAssignment_01\\AdvAssignment_01.csproj": {}
   },
   "projects": {
-    "D:\\Courses\\Route\\DotNet\\03_OOP\\Session07\\LibraryManagementProject\\LibraryManagementProject\\LibraryManagementProject.csproj": {
+    "D:\\Courses\\Route\\DotNet\\Assignments\\AdvAssignment_01\\AdvAssignment_01\\AdvAssignment_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Courses\\Route\\DotNet\\03_OOP\\Session07\\LibraryManagementProject\\LibraryManagementProject\\LibraryManagementProject.csproj",
-        "projectName": "LibraryManagementProject",
-        "projectPath": "D:\\Courses\\Route\\DotNet\\03_OOP\\Session07\\LibraryManagementProject\\LibraryManagementProject\\LibraryManagementProject.csproj",
+        "projectUniqueName": "D:\\Courses\\Route\\DotNet\\Assignments\\AdvAssignment_01\\AdvAssignment_01\\AdvAssignment_01.csproj",
+        "projectName": "AdvAssignment_01",
+        "projectPath": "D:\\Courses\\Route\\DotNet\\Assignments\\AdvAssignment_01\\AdvAssignment_01\\AdvAssignment_01.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Courses\\Route\\DotNet\\03_OOP\\Session07\\LibraryManagementProject\\LibraryManagementProject\\obj\\",
+        "outputPath": "D:\\Courses\\Route\\DotNet\\Assignments\\AdvAssignment_01\\AdvAssignment_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
