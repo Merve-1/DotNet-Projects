@@ -14,4 +14,7 @@ This repository contains my assignments and practice tasks from the **.NET Route
 * **Route-A6** – Enhancing the Movie Ticket Booking System using abstraction, abstract classes, partial classes, and extension methods.
 
 ---
+* This link covers the advanced topics and research of this course: DB, C#, and .NET: https://www.notion.so/Net-Course-3297a1b71e4180b3ab53c7ecfc622509?source=copy_link
+
+---
 
