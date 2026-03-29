@@ -1,4 +1,4 @@
-###Data Structures in C# (Collections Framework)
+### Data Structures in C# (Collections Framework)
 | Structure                  | Type           | Real-world idea                 |
 | -------------------------- | -------------- | ------------------------------- |
 | `Dictionary<TKey, TValue>` | Data structure | Key → Value lookup (like a map) |
