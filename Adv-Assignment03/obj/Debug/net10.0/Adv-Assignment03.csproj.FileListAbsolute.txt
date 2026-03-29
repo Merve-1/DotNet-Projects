@@ -1,0 +1,14 @@
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\bin\Debug\net10.0\Adv-Assignment03.exe
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\bin\Debug\net10.0\Adv-Assignment03.deps.json
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\bin\Debug\net10.0\Adv-Assignment03.runtimeconfig.json
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\bin\Debug\net10.0\Adv-Assignment03.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\bin\Debug\net10.0\Adv-Assignment03.pdb
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.AssemblyInfoInputs.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.AssemblyInfo.cs
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.csproj.CoreCompileInputs.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\refint\Adv-Assignment03.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.pdb
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\Adv-Assignment03.genruntimeconfig.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session03\Assignment\GradingSystem\Adv-Assignment03\obj\Debug\net10.0\ref\Adv-Assignment03.dll
