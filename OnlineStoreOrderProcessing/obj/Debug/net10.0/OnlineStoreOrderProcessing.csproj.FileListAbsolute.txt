@@ -1,0 +1,14 @@
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\bin\Debug\net10.0\OnlineStoreOrderProcessing.exe
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\bin\Debug\net10.0\OnlineStoreOrderProcessing.deps.json
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\bin\Debug\net10.0\OnlineStoreOrderProcessing.runtimeconfig.json
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\bin\Debug\net10.0\OnlineStoreOrderProcessing.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\bin\Debug\net10.0\OnlineStoreOrderProcessing.pdb
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.AssemblyInfoInputs.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.AssemblyInfo.cs
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.csproj.CoreCompileInputs.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\refint\OnlineStoreOrderProcessing.dll
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.pdb
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\OnlineStoreOrderProcessing.genruntimeconfig.cache
+D:\Courses\Route\DotNet\04_Advanced C#\Session02\Assignment\OnlineStoreOrderProcessing\OnlineStoreOrderProcessing\obj\Debug\net10.0\ref\OnlineStoreOrderProcessing.dll
