@@ -1,0 +1,14 @@
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\bin\Debug\net10.0\LinqSession01.exe
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\bin\Debug\net10.0\LinqSession01.deps.json
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\bin\Debug\net10.0\LinqSession01.runtimeconfig.json
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\bin\Debug\net10.0\LinqSession01.dll
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\bin\Debug\net10.0\LinqSession01.pdb
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.AssemblyInfoInputs.cache
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.AssemblyInfo.cs
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.csproj.CoreCompileInputs.cache
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.dll
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\refint\LinqSession01.dll
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.pdb
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\LinqSession01.genruntimeconfig.cache
+D:\Courses\Route\DotNet\05_LINQ\Session01\LinqSession01\LinqSession01\obj\Debug\net10.0\ref\LinqSession01.dll
