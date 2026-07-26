@@ -1,0 +1,11 @@
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\bin\Debug\net10.0\Jym.BusinessLogic.deps.json
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\bin\Debug\net10.0\Jym.BusinessLogic.dll
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\bin\Debug\net10.0\Jym.BusinessLogic.pdb
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.AssemblyInfoInputs.cache
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.AssemblyInfo.cs
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.dll
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\refint\Jym.BusinessLogic.dll
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\Jym.BusinessLogic.pdb
+D:\Courses\Route\DotNet\08_NET MVC\Assignment 2\Jym\Jym.BusinessLogic\obj\Debug\net10.0\ref\Jym.BusinessLogic.dll
