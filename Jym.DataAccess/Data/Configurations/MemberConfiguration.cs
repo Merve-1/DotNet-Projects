@@ -4,12 +4,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Jym.DataAccess.Data.Configurations;
 
-public class MemberConfiguration:
-    UserConfiguration<Member>
+public class MemberConfiguration : IEntityTypeConfiguration<Member>
+
 {
-    public override void Configure(EntityTypeBuilder<Member> builder)
+    public void Configure(EntityTypeBuilder<Member> builder)
     {
-        base.Configure(builder);
         
         //configuration related to "Members"
         builder.Property(p => p.Photo)

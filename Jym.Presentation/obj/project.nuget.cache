@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IZk4f1SZwQg=",
+  "dgSpecHash": "Y9T4Fk63pSI=",
   "success": true,
-  "projectFilePath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 2\\Jym\\Jym.Presentation\\Jym.Presentation.csproj",
+  "projectFilePath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 3\\Jym\\Jym.Presentation\\Jym.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

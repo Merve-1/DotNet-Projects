@@ -1,4 +1,6 @@
+using Jym.BusinessLogic.ViewModels;
 using Jym.Controllers;
+using Jym.DataAccess;
 using Jym.DataAccess.Data.Contexts;
 using Jym.DataAccess.Data.Repositories;
 using Jym.DataAccess.Data.Seeder;
@@ -16,15 +18,20 @@ var builder = WebApplication.CreateBuilder(args);
 //singleton all of the requests will share one object (race condition might occur)
 
 
-builder.Services.AddScoped<IPlanRepository, PlanRepository>();
+//builder.Services.AddScoped<IPlanRepository, PlanRepository>();
 
-builder.Services.AddDbContext<JymDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
 
 
 // keyservices
+// Add services to the container.
+//builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+                       ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+builder.Services.AddJymDataAccess(connectionString);
+builder.Services.AddJymBusinessLogic();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -50,15 +57,18 @@ app.MapControllerRoute(
         pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-await using var scope = app.Services.CreateAsyncScope();
+if (app.Environment.IsDevelopment())
+{
+    await using var scope = app.Services.CreateAsyncScope();
 
-var dbContext = scope.ServiceProvider
-    .GetRequiredService<JymDbContext>();
+    var dbContext = scope.ServiceProvider
+        .GetRequiredService<JymDbContext>();
 
-// Apply pending migrations
-await dbContext.Database.MigrateAsync();
+    // Apply pending migrations
+    await dbContext.Database.MigrateAsync();
 
-// Seed the database
-await DatabaseSeeder.SeedAllAsync(dbContext);
+    // Seed the database
+    await DatabaseSeeder.SeedAllAsync(dbContext);
+}
 
 app.Run();

@@ -19,8 +19,9 @@ public class BookingConfiguration: IEntityTypeConfiguration<Booking>
         {
             b.MemberId,
             b.SessionId
-        }).IsUnique();
+        }).IsUnique()
+        .HasFilter("[IsDeleted] = 0");
         
-     
+        builder.HasQueryFilter(b => !b.IsDeleted);
     }
 }

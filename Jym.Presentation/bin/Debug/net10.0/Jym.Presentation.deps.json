@@ -749,6 +749,9 @@
         }
       },
       "Jym.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "Jym.DataAccess": "1.0.0"
+        },
         "runtime": {
           "Jym.BusinessLogic.dll": {
             "assemblyVersion": "1.0.0.0",

@@ -18,11 +18,11 @@ public class JymDbContext: DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(JymDbContext).Assembly);
-        modelBuilder.Entity<User>().HasDiscriminator<string>("UserType")
-            .HasValue<Member>("Member")
-            .HasValue<Trainer>("Trainer");
+        //modelBuilder.Entity<User>().HasDiscriminator<string>("UserType")
+        //   .HasValue<Member>("Member")
+        //    .HasValue<Trainer>("Trainer");
         
-        modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
+        //modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
 
     }
     
@@ -30,6 +30,10 @@ public class JymDbContext: DbContext
     public DbSet<Category> Categories { get; set; }
     
     public DbSet<User> Users { get; set; }
+    
+    public DbSet<Member> Members => Set<Member>();
+    
+    public DbSet<Trainer> Trainers => Set<Trainer>();
     
     public DbSet<Session> Sessions { get; set; }
     

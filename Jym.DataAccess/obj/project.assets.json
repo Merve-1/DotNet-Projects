@@ -1682,11 +1682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 2\\Jym\\Jym.DataAccess\\Jym.DataAccess.csproj",
+      "projectUniqueName": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 3\\Jym\\Jym.DataAccess\\Jym.DataAccess.csproj",
       "projectName": "Jym.DataAccess",
-      "projectPath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 2\\Jym\\Jym.DataAccess\\Jym.DataAccess.csproj",
+      "projectPath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 3\\Jym\\Jym.DataAccess\\Jym.DataAccess.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 2\\Jym\\Jym.DataAccess\\obj\\",
+      "outputPath": "D:\\Courses\\Route\\DotNet\\08_NET MVC\\Assignment 3\\Jym\\Jym.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",

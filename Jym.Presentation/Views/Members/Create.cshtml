@@ -1,0 +1,128 @@
+@using Jym.BusinessLogic.ViewModels.Members
+@using Jym.DataAccess.Enums
+@model CreateMemberViewModel
+
+@{
+    ViewData["Title"] = "Add Member";
+}
+
+<div class="container">
+    <main role="main" class="pb-3">
+
+        <header class="mb-4">
+            <h3 class="text-primary-color">Add Member</h3>
+        </header>
+
+        <form asp-controller="Members" asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <!-- Personal Information -->
+            <fieldset class="mb-4">
+                <legend class="h5">Personal Information</legend>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="Phone" class="form-label"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="DateOfBirth" class="form-label"></label>
+                        <input asp-for="DateOfBirth" class="form-control" type="date" />
+                        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="Gender" class="form-label"></label>
+                        <select asp-for="Gender" class="form-select" asp-items="Html.GetEnumSelectList<Gender>()">
+                            <option value="">-- Select Gender --</option>
+                        </select>
+                        <span asp-validation-for="Gender" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Address Information -->
+            <fieldset class="mb-4">
+                <legend class="h5">Address Information</legend>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <label asp-for="BuildingNumber" class="form-label"></label>
+                        <input asp-for="BuildingNumber" class="form-control" />
+                        <span asp-validation-for="BuildingNumber" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="Street" class="form-label"></label>
+                        <input asp-for="Street" class="form-control" />
+                        <span asp-validation-for="Street" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="City" class="form-label"></label>
+                        <input asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Health Data -->
+            <fieldset class="mb-4">
+                <legend class="h5">Health Data</legend>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <label asp-for="HealthRecordViewModel.Height" class="form-label"></label>
+                        <input asp-for="HealthRecordViewModel.Height" class="form-control" />
+                        <span asp-validation-for="HealthRecordViewModel.Height" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="HealthRecordViewModel.Weight" class="form-label"></label>
+                        <input asp-for="HealthRecordViewModel.Weight" class="form-control" />
+                        <span asp-validation-for="HealthRecordViewModel.Weight" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="HealthRecordViewModel.BloodType" class="form-label">Blood Type</label>
+                        <select asp-for="HealthRecordViewModel.BloodType" class="form-select" asp-items="Html.GetEnumSelectList<BloodType>()">
+                            <option value="">Select</option>
+                        </select>
+                        <span asp-validation-for="HealthRecordViewModel.BloodType" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label asp-for="HealthRecordViewModel.Note" class="form-label"></label>
+                        <input asp-for="HealthRecordViewModel.Note" class="form-control" />
+                        <span asp-validation-for="HealthRecordViewModel.Note" class="text-danger"></span>
+                    </div>
+                </div>
+            </fieldset>
+
+            <footer class="d-flex justify-content-end gap-3 mt-4">
+                <a asp-controller="Members" asp-action="Index" class="btn btn-outline-secondary px-4">
+                    <i class="bi bi-arrow-left me-2"></i> Back to List
+                </a>
+                <button type="submit" class="btn btn-primary px-4">
+                    <i class="bi bi-plus-circle me-2"></i> Add
+                </button>
+            </footer>
+        </form>
+
+    </main>
+</div>
+
+@section ValidationScripts {
+    <partial name="_ValidationScriptsPartial" />
+}
